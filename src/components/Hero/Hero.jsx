@@ -23,7 +23,7 @@ const Header = () => {
     }
   }, []);
 
-  const showCursor = true;
+  const showCursor = false;
 
   return (
     <section id="hero" className="jumbotron">
@@ -32,7 +32,6 @@ const Header = () => {
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
-            <br />
             <Typed
               className="heroSubtitle"
               strings={[
@@ -46,9 +45,10 @@ const Header = () => {
               showCursor={showCursor}
               loop >
               
-              <input readOnly disabled="disabled" type="text" />
+              <textarea readOnly disabled="disabled" type="text" />
           
             </Typed>
+        
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

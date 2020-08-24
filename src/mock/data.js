@@ -21,38 +21,102 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1zUzInnyCCDGktvfC7fleABBZrXqIJiv4/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'alanAI.png',
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://musing-elion-fc0ff3.netlify.app/',
+    repo: 'https://github.com/pachopa/Alan-AI-News-Application', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'scortchCard.png',
     title: '',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/shinmike/scortch', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'covid19.png',
     title: '',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'Invigulus.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'quizApp.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ToDoApp.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'jungleAdmin.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'dhgmsd.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'doduart_main.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'trading.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+
 ];
 
 // CONTACT DATA
