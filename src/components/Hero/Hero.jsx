@@ -39,6 +39,7 @@ const Header = () => {
                 "I'm a Front-End Web Developer",
                 'Welcome to my portfolio website',
                 'Feel free to contact me']}
+              rel="noreferer"
               typeSpeed={40}
               backSpeed={50}
               // attr="placeholder"
